@@ -20,6 +20,7 @@
 		E08D9BC125E3DE76001B64A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E08D9BC425E3DE76001B64A0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E08D9BC625E3DE76001B64A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E08D9BCD25E3E017001B64A0 /* DynamicPanel.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DynamicPanel.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +53,7 @@
 		E08D9BBC25E3DE73001B64A0 /* DynamicPanel */ = {
 			isa = PBXGroup;
 			children = (
+				E08D9BCD25E3E017001B64A0 /* DynamicPanel.entitlements */,
 				E08D9BBD25E3DE73001B64A0 /* DynamicPanelApp.swift */,
 				E08D9BBF25E3DE73001B64A0 /* ContentView.swift */,
 				E08D9BC125E3DE76001B64A0 /* Assets.xcassets */,
@@ -267,6 +269,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DynamicPanel/DynamicPanel.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"DynamicPanel/Preview Content\"";
 				DEVELOPMENT_TEAM = K52EJNPD2V;
@@ -279,6 +282,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "t-software.DynamicPanel";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -289,6 +293,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DynamicPanel/DynamicPanel.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"DynamicPanel/Preview Content\"";
 				DEVELOPMENT_TEAM = K52EJNPD2V;
@@ -301,6 +306,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "t-software.DynamicPanel";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
